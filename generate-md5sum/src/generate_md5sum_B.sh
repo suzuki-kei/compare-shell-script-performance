@@ -1,6 +1,6 @@
 function generate_md5sum_B
 {
-    echo 'ループの外側で md5sum を実行する' >&2
+    echo 'ループの外側で md5sum を実行する.' >&2
 
     while read md5sum_value
     do
